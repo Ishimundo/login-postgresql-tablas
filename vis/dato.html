@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+ <!-- Contenedor del registro-->
+    <div class="container">
+        <div class="page-header"> 
+        <h2 class="text-titles">REGISTRAR DATOS</h2>
+        </div>
+
+        <form id="formulario" action="../control/usuariocontrol.php" method="post">
+          <div class="form justify-content-center">
+            
+            <div class="col justify-content-center">
+              <input type="text" name="nomproy" class="form-control val" placeholder="Nombre proyecto" required>
+            </div>
+            
+            <div class="col justify-content-center ">
+              <input type="number" name="año" class="form-control val" placeholder="Ingresar año" required>
+            </div>
+        
+            <div class="col justify-content-center">
+              <input type="text" name="secc" class="form-control val" placeholder="Ingresar Seccion" required>
+            </div>
+
+          </div>
+          <!--Botones del formulario-->
+          <div class="col justify-content-center">
+          <button class="btn btn-primary btn-lg" type="button" id="btnAgregar">Registrar</button>
+          <button class="btn btn-danger btn-lg " type="reset">Limpiar</button> 
+        </div>
+        </form>
+        </div>
+</body>
+</html>

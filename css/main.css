@@ -1,0 +1,181 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/* VARIABLES */
+
+
+
+
+/* GLOBALES */
+
+body {
+    background-color: rgb(245, 245, 245);
+    overflow: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 80%;
+    width: 60%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* CONTAINER MEDIA QUERY */
+
+@media (max-width:1400px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width:1200px) {
+    .container {
+        width: 40%;
+    }
+}
+
+@media (max-width:900px) {
+    .container {
+        width: 50%;
+    }
+}
+
+
+
+
+
+/* FORM */
+
+div.form {
+    padding: 80px 80px;
+}
+
+div.form-title {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+div.form-title h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 40px;
+    color: #050403;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+
+
+
+/* FORM MEDIA QUERY*/
+
+@media (max-width:1400px) {
+    div.form {
+        padding: 20px 30px;
+    }
+}
+
+@media (max-width:1200px) {
+    div.form {
+        padding: 30px 30px;
+    }
+}
+
+
+/* FORM INPUTS */
+
+div.inputs {
+       
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    
+}
+
+
+   
+
+
+
+div.inputs input {
+    padding: 10px 10px;
+    font-size: 18px;
+    color: ##a0a0a0;
+    outline: none;
+    border: 2px;
+
+}
+
+div.select h4{
+ font-size: 15px;
+text-align: left;
+color: #ffffff;
+
+}
+
+div.select select{
+    width: 100%;  
+    background-color: black; 
+    border-radius: 20px;
+    border: 1px  solid #a0a0a0;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    color:#ffffff;
+    font-size: 18px;
+    }
+
+div.select select:hover{
+    border: 1px solid rgba(8, 8, 138);
+
+}  
+
+    div.select option {
+    font-size: 18px;
+    color:#ffffff;
+    padding: 10px 10px;
+}
+
+input.boton {
+    width: 100%;
+    padding: 13px 0;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px 0;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    display: inline-block;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(8, 8, 138, 1) 0%, rgba(106, 8, 136, 1) 0%, rgba(12, 6, 191, 1) 100%);
+    transition: all 3s ease;
+}
+
+input.boton:hover {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(8, 8, 138, 1) 0%, rgba(12, 6, 191, 1) 0%, rgba(106, 8, 136, 1) 100%);
+}
+
+div.form a {
+    text-decoration: none;
+    color: rgba(106, 8, 136);
+    font-weight: bold;
+}
+
